@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if toogle bar (Syntax Highlighting) is active and text from New Paste is highlighted according selected value from picklist (Syntax Highlighting).</description>
+   <name>TC04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65483057-b4f5-4a3b-92a1-9de3e1ba150b</testCaseGuid>
+</TestCaseEntity>

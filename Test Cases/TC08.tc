@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if check box from Password is active and generate random editable password.</description>
+   <name>TC08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7804679e-f4b4-4b01-849e-378bdf59d5ba</testCaseGuid>
+</TestCaseEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_None</name>
+   <name>div_EnabledDisabled</name>
    <tag></tag>
-   <elementGuidId>2143fd56-f1ea-4bbe-9d64-f7e3ecc93b7d</elementGuidId>
+   <elementGuidId>e0a043ce-b8f6-4c4e-8713-799b9befdc4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[contains(text(),'(members only)')]</value>
+         <value>//form[@id='w0']/div[5]/div/div[5]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.form-group.field-postform-is_password_enabled > div.col-sm-9.field-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,54 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>select2-postform-format-result-g0cc-1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>option</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-select2-id</name>
-      <type>Main</type>
-      <value>select2-postform-format-result-g0cc-1</value>
+      <value>col-sm-9 field-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>None</value>
+      <value>
+                    
+
+
+EnabledDisabled
+
+                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-postform-format-result-g0cc-1&quot;)</value>
+      <value>id(&quot;w0&quot;)/div[@class=&quot;post-form__bottom&quot;]/div[@class=&quot;post-form__left&quot;]/div[@class=&quot;form-group field-postform-is_password_enabled&quot;]/div[@class=&quot;col-sm-9 field-wrapper&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='w0']/div[5]/div/div[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[5]/div</value>
+   </webElementXpaths>
 </WebElementEntity>

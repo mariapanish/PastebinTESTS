@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if picklist (Paste Exposure) contains valid values and it is active.</description>
+   <name>TC06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>768ae40d-4bd8-4f9c-9904-fa14253da70c</testCaseGuid>
+</TestCaseEntity>
