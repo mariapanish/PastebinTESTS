@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if picklist ( Syntax Hightlighting) contains valid values and it is active</description>
+   <name>TC02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07d2e346-480c-4c67-abb9-26d52a2574f9</testCaseGuid>
+</TestCaseEntity>

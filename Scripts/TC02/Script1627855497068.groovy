@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pastebin.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/textarea_Syntax Highlighting_PostFormtext'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span_None'))
 
-WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/textarea_Syntax Highlighting_PostFormtext'), 
-    '<!DOCTYPE html> <head><title>Page Title</title></head> <h1>This is a heading</h1> <p>This is a paragraph.</p>')
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/li_HTML'))
 
