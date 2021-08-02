@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if paste is deleted after closing (option burn after read was selected).</description>
+   <name>TC15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57821fa4-4c91-417a-992f-47baec75a753</testCaseGuid>
+</TestCaseEntity>

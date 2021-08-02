@@ -1,2 +1,2 @@
 # PastebinTESTS
-This automation test are writen in Katalon Studio
+These automation test are written in Katalon Studio

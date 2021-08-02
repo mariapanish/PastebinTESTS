@@ -19,6 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pastebin.com/')
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/textarea_Syntax Highlighting_PostFormtext'),
+	0)
+
+WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/textarea_Syntax Highlighting_PostFormtext'),
+	'<!DOCTYPE html> <head><title>Page Title</title></head> <h1>This is a heading</h1> <p>This is a paragraph.</p>')
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span_None'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/li_HTML'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span_Never'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/li_Burn after read'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span_Public'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/li_Public'))
+
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'))
 
 WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span'))
@@ -26,4 +44,21 @@ WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'))
 
 WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'),'loremipsumkk')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Paste Name  Title_PostFormname'),
+	0)
+
+WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Paste Name  Title_PostFormname'),'First Paste')
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/button_Create New Paste'))
+
+WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/a_Copy paste link to clipboard'))
+
+WebUI.delay(2)
+WebUI.dismissAlert()
+
+url = WebUI.getUrl()
+
+WebUI.navigateToUrl(url)
+
 

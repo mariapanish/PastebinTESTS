@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pastebin.com/')
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Paste Name  Title_PostFormname'),
+	0)
 
-WebUI.click(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/span'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'))
-
-WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Disabled_PostFormpassword'),'loremipsumkk')
-
+WebUI.setText(findTestObject('Object Repository/Pastebin_OR/Page_Pastebin.com - 1 paste tool since 2002/input_Paste Name  Title_PostFormname'),'First Paste')

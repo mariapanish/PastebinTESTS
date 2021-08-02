@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text box (Enter Password) is active and editable.</description>
+   <name>TC12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3d888ab-1517-40a6-8d3f-90941107c421</testCaseGuid>
+</TestCaseEntity>

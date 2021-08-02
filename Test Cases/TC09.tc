@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text box (Paste Name/Title) is active and editable.</description>
+   <name>TC09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b53ac951-97c9-450e-a672-2cc9b192760c</testCaseGuid>
+</TestCaseEntity>

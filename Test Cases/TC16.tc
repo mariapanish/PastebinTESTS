@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if inserted values are the same after clicking back button from generated paste link.</description>
+   <name>TC16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf9284fb-24b1-41dc-bfb1-a96a4c6035e4</testCaseGuid>
+</TestCaseEntity>

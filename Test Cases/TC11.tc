@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the button Copy paste link to clipboard is active and copied link is accesible.</description>
+   <name>TC11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5498b548-8fe1-4856-be45-fa9f26e72d6a</testCaseGuid>
+</TestCaseEntity>
